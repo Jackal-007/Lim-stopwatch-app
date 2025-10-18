@@ -1,4 +1,4 @@
-/* Center layout */
+
 body {
   background: linear-gradient(135deg, #a8edea, #fed6e3);
   font-family: "Poppins", sans-serif;
@@ -9,7 +9,7 @@ body {
   align-items: center;
 }
 
-/* Main container */
+
 .container {
   background: white;
   padding: 40px;
@@ -19,13 +19,13 @@ body {
   width: 320px;
 }
 
-/* Title */
+
 h1 {
   margin-bottom: 20px;
   color: #333;
 }
 
-/* Time display */
+
 .time-display {
   font-size: 48px;
   font-weight: bold;
@@ -33,7 +33,7 @@ h1 {
   color: #444;
 }
 
-/* Buttons */
+
 .buttons button {
   background-color: #007bff;
   color: white;
@@ -54,7 +54,7 @@ h1 {
   cursor: not-allowed;
 }
 
-/* Laps list */
+
 .laps {
   margin-top: 20px;
   text-align: left;

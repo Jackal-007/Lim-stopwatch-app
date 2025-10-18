@@ -6,7 +6,6 @@ function App() {
   const [isRunning, setIsRunning] = useState(false);
   const [laps, setLaps] = useState([]);
 
-  // Timer logic
   useEffect(() => {
     let interval;
     if (isRunning) {
@@ -15,7 +14,6 @@ function App() {
     return () => clearInterval(interval);
   }, [isRunning]);
 
-  // Format time into mm:ss
   const formatTime = (seconds) => {
     const mins = Math.floor(seconds / 60);
     const secs = seconds % 60;
